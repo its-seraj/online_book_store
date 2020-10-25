@@ -1,0 +1,221 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #333333;
+}
+.nav{
+    padding: 20px 60px;
+    height: 60px;
+    color: #ddd;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+.nav h1{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px #aaa;
+    cursor: pointer;
+}
+.nav .underline{
+    height: 4px;
+    width: 40px;
+    margin-left: -1px;
+    margin-top: 8px;
+    background-color: #888888;
+    animation: underline 4s infinite;
+}
+@keyframes underline{
+    50%{background-color: lawngreen;}
+}
+
+/* login cheatsheet is here */
+.login{
+    margin-top: 10vh;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #444;
+    border-radius: 12px;
+    box-shadow: 0 0 4px #444;
+}
+.inputBox{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    position: relative;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: lawngreen;
+}
+.inputBox input{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: -150px;
+    background: transparent;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 8px;
+    color: #eee;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+/*     border: 1px solid  rgb(64, 73, 189);
+ */    box-shadow: 1px 1px 2px rgba(64, 72, 189, 0.377), 0 0 2px rgb(64, 73, 189);
+}
+.inputBox span{
+    position: absolute;
+    top: 8px;
+    left: -140px;
+    display: inline-block;
+    transition: 0.5s;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 14px;
+}
+.inputBox input:focus ~ span, .inputBox input:valid ~ span{
+    transform: translateX(5px) translateY(-22px);
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-weight: bold;
+}
+.inputBox input[type='submit']{
+    width: 120px;
+    background-color: #2166ff;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    border: none;
+    cursor: pointer;
+}
+.login h1{
+    font-size: 1.5em;
+    color: #aaa;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+.login img{
+    margin: 20px 0;
+    height: 120px;
+    width: 100px;
+}
+.login .alert{
+    position: absolute;
+    right: 360px;
+    top: 100px;
+    color: #fda;
+    font-weight: bold;
+    text-shadow: 0 0 4px #666;
+    display: none;
+}
+
+/* after login css code */
+.welcome{
+    display: none;
+}
+.nav2{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+    padding: 20px 60px;
+    height: 60px;
+    color: #aaa;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    display: flex;
+    align-items: center;
+}
+.nav2 .horizontal{
+    height: 30px;
+    width: 4px;
+    display: inline-block;
+    background-color: #666;
+}
+.nav2 h1{
+    display: inline;
+    margin-left: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.logout{
+    position: absolute;
+    right: 80px;
+    top: 22px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    cursor: pointer;
+}
+
+/* Body of admin after login */
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1, .container2, .container3, .container4{
+    width: 20%;
+    height: 60vh;
+    margin-top: 12vh;
+    background-color: #444;
+    border-radius: 16px 0 0 0;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.712);
+}
+.body .head{
+    position: relative;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #333;
+    word-spacing: 4px;
+}
+.body .button{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 194px;
+    background-color: #333;
+    height: 32px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px 0 6px 0;
+}
+.body .button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #555;
+    line-height: 32px;
+}
+.container1 .button a, .container1 p, .container1 .head{
+    color: #40ca95;
+}
+.container2 .button a, .container2 p, .container2 .head{
+    color: rgb(212, 154, 154);
+}
+.container3 .button a, .container3 p, .container3 .head{
+    color: #b873b8ce;
+}
+.container4 .button a, .container4 p, .container4 .head{
+    color: #7ab1a9;
+}
+.body p{
+    margin: 20px 10px;
+}
+.body .circle{
+    margin-left: 20px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #aaa;
+}

@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer{
+	position:absolute;
+	width:330px;
+	height: auto;
+	left:45%;
+	top:80px;
+	background: #f3f3f3;
+	border: none;
+	border-radius: 12px;
+}
+
+#user{
+	height: 3em;
+	width: 3em;
+	margin: 1em 0em 2em 8em;
+}
+
+.action_btns a.btn {color:#666; text-align: center; text-decoration: none;}
+.action_btns .btn {padding:10px 20px; background: #F4F4F2;}
+.action_btns .btn_red {background: #ED6347; color: #FFF;}
+
+.action_btns .btn:hover {background: #E4E4E2;}
+.action_btns .btn_red:hover {background: #C12B05;}
+
+
+.action_btns a.btn_red {color: #FFF;}
+
+.one_half {width:50%; display: block; float:left;}
+.one_half.last {width:45%; margin-left:5%;}
+
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {
+	background:#f3f3f3; 
+	position:relative; 
+	padding:10px 20px; 
+	border-bottom:1px solid #DDD; 
+	border-radius: 12px 12px 0 0;
+	font-weight:bold;
+}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+.modal_close {border-radius: 0px 12px 0 0;}
+
+.popupBody {padding:20px;}
+
+
+/* Social Login Form */
+::placeholder{
+	color: #a79797;
+}
+/* .social_login {}*/
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #F4F4F2; overflow: hidden;}
+.social_login .icon {display:block; width:30px; height: 30px; padding: 7px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
+.social_login .fb .icon {background:#3B5998; box-shadow: 0 0 6px #aaa;}
+.social_login .google .icon {background:#fff; box-shadow: 0 0 6px #aaa;}
+.social_login .icon_title {display:block; padding:5px 0; float:left; font-weight: bold; font-size: 16px; color:#777;}
+.social_login .social_box:hover {background: #E4E4E2;}
+
+.centeredText {text-align: center; margin: 20px 0; clear: both;font-size: 10px; letter-spacing: 2px; word-spacing: 4px; overflow: hidden; text-transform: uppercase;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Login Form */
+.user_login {display: none;}
+.user_login label {display: block; margin-bottom:5px;}
+.user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {
+	display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#DD4B39;
+	width: 80%;
+    margin: 1em;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 4px 1px #C12B05;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+	background: transparent;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.user_login input[type="text"]:hover, .user_login input[type="email"]:hover, .user_login input[type="password"]:hover{
+	background-color: #d3d3d3;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.user_login input[type="checkbox"] {float:left; margin-right:05px;}
+.user_login input[type="checkbox"]+label {float:left;}
+
+.user_login .checkbox {margin: 0px 0px 20px 10px; clear: both; overflow: hidden;}
+.forgot_password {display:block; margin: 20px 0 10px; clear: both; overflow: hidden; text-decoration: none; color:#ED6347;}
+
+/* User Register Form */
+.user_register {display: none; padding-left: 20px;}
+.user_register label {display: block; margin-bottom:5px;}
+.user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {
+	display: block; color:#00a; font-weight: bold;
+	width: 90%;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 4px 1px #C12B05;
+    border-radius: 8px;
+    padding: 10px;
+	background: transparent;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.user_register input[type="text"]:hover, .user_register input[type="email"]:hover, .user_register input[type="password"]:hover{
+	background-color: #d3d3d3;
+	color: #00f;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+
+.user_register input[type="checkbox"] {float:left; margin-right:5px;}
+.user_register input[type="checkbox"]+label {float:left;}
+
+.user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+
+.social_box{
+	border-radius: 16px;
+	box-shadow: 0px 5px 10px #a0a0a0;
+}
+.icon{
+	border-radius: 50%;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+}
+
+#login_form, #register_form{
+	background-color: #d0d0d0;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#login_form:hover, #register_form:hover{
+	background-color: #777;
+	color: #d0d0d0;
+}
+
+.successfull-register{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: green;
+}
