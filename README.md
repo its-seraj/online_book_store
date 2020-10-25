@@ -1,13 +1,3 @@
 # online_book_store
 
-Step.1 : Extract .rar file inside your server root folder.
-	       (for e.g. wamp : "C:\wamp64\www\" )
-Step.2 : Open PHP MyAdmin in your Browser using localhost
-Step.3 : Create a Database with any meaningfull name (recommend : "Online_Book_Store")
-Step.4 : Go to the IMPORT section 
-Step.5 : Select SQL file inside database Folder with name of "online_book_store.sql"
-Step.6 : For Better Understanding read .pdf file inside database Folder
-
-Welcome You All Set...
-
-[ Open Browser and RUN your API ]
+It's an e-commerce based web API for Online Book Selling. It has  LogIn / SignUp Page for Users and an ADMIN page for Company or Admin all the essential Information in Guidance.txt file. If any Query or Bug in this API plzz mail us : serajkhan48522@gmail.com
