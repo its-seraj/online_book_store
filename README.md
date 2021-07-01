@@ -5,8 +5,8 @@ In this section we download and set up our Project to Local Machine. First we ha
 https://github.com/seraj48522/online_book_store/archive/main.zip
 
 The Downloaded file is in zip format, we have to extract this into a specific folder -<br><br>
-**WAMP : **C://wamp64/www/ 		<br><br>
-**XAMPP : **C://xampp/htdocs/ or For Linux : /opt/lampp/htdocs/<br><br><br>
+WAMP : C://wamp64/www/ 		<br><br>
+XAMPP : C://xampp/htdocs/ or For Linux : /opt/lampp/htdocs/<br><br><br>
 
 
 After extraction of the project, Our next step is to set up our database. <br><br>
