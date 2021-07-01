@@ -20,4 +20,6 @@ After extraction of the project, Our next step is to set up our database. <br><b
   
   Congrats you have successfully set up our database. After that, put localhost/online_book_store in the url section and hit the enter button to see the Homepage of our WebApplication.
 
+<img src="https://ibb.co/TkxG7n8" />
+
 All the essential Information in Guide.txt file. If any Query or Bug in this API plzz mail us : serajkhan48522@gmail.com
