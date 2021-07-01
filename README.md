@@ -20,31 +20,31 @@ After extraction of the project, Our next step is to set up our database. <br><b
   
   Congrats you have successfully set up our database. After that, put localhost/online_book_store in the url section and hit the enter button to see the Homepage of our WebApplication.
   
-##Homepage
+## Homepage
 
 <img src="https://i.ibb.co/6m7STpP/Screenshot-111.png" />
 
-##SignUp / SignIn
+## SignUp / SignIn
 
 <img src="https://i.ibb.co/Hp7Bct0/Screenshot-140.png" />
 
-##Live Search for Books
+## Live Search for Books
 
 <img src="https://i.ibb.co/2hMdQgv/Screenshot-126.png" />
 
-##Books Description
+## Books Description
 
 <img src="https://i.ibb.co/58nX5MH/Screenshot-114.png" />
 
-##Update Shopping Cart
+## Update Shopping Cart
 
 <img src="https://i.ibb.co/58nX5MH/Screenshot-114.png" />
 
-##Admin LogIn
+## Admin LogIn
 
 <img src="https://i.ibb.co/hLZ8xX5/Screenshot-116.png" />
 
-##Refrences
+## Refrences
 
 <img src="https://i.ibb.co/98XvxBZ/References.png" />
 
