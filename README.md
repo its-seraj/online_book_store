@@ -38,7 +38,7 @@ After extraction of the project, Our next step is to set up our database. <br><b
 
 ## Update Shopping Cart
 
-<img src="https://i.ibb.co/58nX5MH/Screenshot-114.png" />
+<img src="https://i.ibb.co/165M9QW/Screenshot-115.png" />
 
 ## Admin LogIn
 
