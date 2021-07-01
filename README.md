@@ -19,7 +19,33 @@ After extraction of the project, Our next step is to set up our database. <br><b
 	**step.5 :** Tap on Go button<br><br>
   
   Congrats you have successfully set up our database. After that, put localhost/online_book_store in the url section and hit the enter button to see the Homepage of our WebApplication.
+  
+##Homepage
 
 <img src="https://i.ibb.co/6m7STpP/Screenshot-111.png" />
+
+##SignUp / SignIn
+
+<img src="https://i.ibb.co/Hp7Bct0/Screenshot-140.png" />
+
+##Live Search for Books
+
+<img src="https://i.ibb.co/2hMdQgv/Screenshot-126.png" />
+
+##Books Description
+
+<img src="https://i.ibb.co/58nX5MH/Screenshot-114.png" />
+
+##Update Shopping Cart
+
+<img src="https://i.ibb.co/58nX5MH/Screenshot-114.png" />
+
+##Admin LogIn
+
+<img src="https://i.ibb.co/hLZ8xX5/Screenshot-116.png" />
+
+##Refrences
+
+<img src="https://i.ibb.co/98XvxBZ/References.png" />
 
 All the essential Information in Guide.txt file. If any Query or Bug in this API plzz mail us : serajkhan48522@gmail.com
