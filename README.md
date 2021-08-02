@@ -46,6 +46,6 @@ After extraction of the project, Our next step is to set up our database. <br><b
 
 ## Refrences
 
-<img src="https://i.ibb.co/98XvxBZ/References.png" />
+<p align="center"><img src="https://i.ibb.co/98XvxBZ/References.png" /></p>
 
 All the essential Information in Guide.txt file. If any Query or Bug in this API plzz mail us : serajkhan48522@gmail.com
